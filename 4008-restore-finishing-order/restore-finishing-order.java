@@ -6,7 +6,7 @@ class Solution {
             for(int j=0;j<friends.length;j++){
                 if(order[i]==friends[j]){
                     ans[k++]=order[i];
-                          
+                    break;
                 }
             }
         }
